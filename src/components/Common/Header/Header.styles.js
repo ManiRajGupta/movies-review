@@ -37,7 +37,10 @@ export const Content = styled.div`
      * {
         color: var(--white);
      }
-  }
+    }
+ .signup{
+    margin-left: 0px;
+ }
 `;
 
 export const MainLogoImg = styled.img`

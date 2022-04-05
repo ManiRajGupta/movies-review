@@ -18,7 +18,10 @@ const Header = () => (
         <MainName>Movies Review</MainName>
       </Link>
       <p className='Login'>
-        <Link to='/Login' style={{ textDecoration: 'none' }}>Login</Link>
+        <a href="http://localhost:3001">Login</a>
+      </p>
+      <p className='Login signup'>
+        <a href="http://localhost:3001">Sign up</a>
       </p>
       <DatabaseLogoImg src={DatabaseLogo} alt="rmdb-logo" />
     </Content>

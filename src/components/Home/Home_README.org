@@ -211,7 +211,7 @@ Here we are exporing the home component so that we can call on this component fr
 #+begin_src js
 export default Home;
 #+end_src
-* Main structure
+* Other components
 ** Header Component
 #+ATTR_HTML: :width 1000px
 [[file:../Common/Header/Header_README.org][file:../../../Readme-resources/Common/header-presentation.png]]
