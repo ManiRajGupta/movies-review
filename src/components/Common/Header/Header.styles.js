@@ -13,6 +13,9 @@ export const MainName = styled.div`
   font-size: 40px;
   font-weight: bolder;
   letter-spacing: 4px;
+  @media screen and (max-width: 500px){
+    display: none;
+  }
 `;
 
 export const Content = styled.div`
@@ -38,9 +41,6 @@ export const Content = styled.div`
         color: var(--white);
      }
     }
- .signup{
-    margin-left: 0px;
- }
 `;
 
 export const MainLogoImg = styled.img`
