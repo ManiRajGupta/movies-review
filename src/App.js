@@ -23,6 +23,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path='/' element={<Home />}/>
+          <Route path='/submit?' element={<Home />}/>
           <Route path='/AboutUs' element={<AboutUs/>} />
           <Route path='/ContactUs' element={<ContactUs/>}/>
           <Route path='/:movieId' element={<Movie />} />
